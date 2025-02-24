@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '28999970'))
 API_HASH = environ.get('API_HASH', '725d134d6288a9d553245f18e1d89a28')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6713467384:AAHPmwpaAFwwro1C_7NfjRT9Y0QZmWqIGDI")
+BOT_TOKEN = environ.get('BOT_TOKEN', "6401749138:AAEoaB4QbN-7hVQ_HQ6fQLc3flWk8Nt0u3Q")
 TIMEZONE = environ.get("TIMEZONE", "Asia/Kolkata")
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -44,7 +44,7 @@ support_chat_id = environ.get('SUPPORT_CHAT_ID')
 API = environ.get("API", "728ac8e235b7da546190c8a97c73ddedcd8e27cf") # shortlink api
 URL = environ.get("URL", "adlinkfly.in") # shortlink domain without https://
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/filmy_men") # how to open link 
-BOT_USERNAME = environ.get("BOT_USERNAME", "SampleFmBot") # bot username without @
+BOT_USERNAME = environ.get("BOT_USERNAME", "Gojo_AutoFMbot") # bot username without @
 VERIFY = environ.get("VERIFY", "False") # set True Or False and make sure spelling is correct and first letter capital.
 
 #reporting...
@@ -56,8 +56,8 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", 'True')), False)
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://thh123:thh123@cluster0.afbus.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "sandyy")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://GojoSand:0987@cluster0.jg6pyug.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "AutoFilter")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'sandytest')
 
 #refer time, or user count
